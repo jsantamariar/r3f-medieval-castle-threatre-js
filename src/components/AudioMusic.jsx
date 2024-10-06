@@ -9,7 +9,7 @@ export const AudioMusic = ({ isPlaying, toggleAudio }) => {
       }`}
       onClick={toggleAudio}
     >
-      {isPlaying ? (
+      {!isPlaying ? (
         // mic off
         <img src={micOff} alt="mic off" />
       ) : (
